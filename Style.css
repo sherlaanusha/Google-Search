@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar,a{
+    display: flex;
+    justify-content:flex-end;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: black;
+  
+}
+a:hover{
+    text-decoration: underline;
+}
+.img{
+    margin-right: 40px;
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.txt{
+    border-radius: 20px;
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 40px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    width: 500px;
+    max-width: 584px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgb(40, 39, 37);
+   text-align: center;
+    
+}
+.txt:hover{
+    border: 2px solid #F8F9FA;
+    box-shadow: #323333;
+}
+#sub{
+    border-radius: 10px;
+    width: 127px;
+    height: 36px;
+    background-color: #F8F9FA;
+   padding: 0px 16px;
+   border: #F8F9FA;
+  
+}
+#sub:hover{
+    border: 2px solid #F8F9FA; 
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.picture1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.picture2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.para1{
+    height: 22px;
+    width: 157px;
+    color: #D93025;
+    font-family: 20px Arial,sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.para2{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 30px;
+    color: #333333;
+    font-family: 16px Arial , sans-serif;
+}
+.data{
+   display: flex;
+   align-items: center;
+}
+.para3{
+    height: 30px;
+    width: 200px;
+    font-family: 13px Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+}
+.txt1{
+    display: flex;
+    height: 30px;
+    background: #fff;
+   width: 320px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgb(40, 39, 37);
+    
+}
+#sub1{
+    background-color: #4d90fe;
+    height: 30px;
+    width: 120px;
+    color: #dfe1e5;
+    cursor: pointer;
+  
+}
+#sub1:hover{
+    border:2px solid black
+}
+.sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
